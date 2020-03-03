@@ -9,5 +9,5 @@ function greeter(person: Person) {
 
 let user = { firstName: "leonardo", lastName: "micheloni" };
 
-document.body.textContent = greeter(user);
+console.log( greeter(user) );
 
