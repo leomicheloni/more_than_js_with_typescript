@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Recipe Book</title>
+    <link rel="stylesheet" href="./css/main.css" />
+    <link href="https://fonts.googleapis.com/css?family=McLaren|Raleway|Source+Sans+Pro:200,200i,300,400&display=swap" rel="stylesheet" />
+</head>
+<body>
+    <div class="page">
+        <!-- header -->
+        <header class="page__header">
+            <h3 class="header__subtitle">INGREDIENTES</h3>
+            <h1 class="header__title"></h1>
+            <div class="header__selectors">
+                <a href="" class="header__select--link">
+                    <p class="header__select">Seleccionar todo &nbsp|</p>
+                </a>
+                <a href="" class="header__deselect--link">
+                    <p class="header__deselect">Deseleccionar todo</p>
+                </a>
+            </div>
+        </header>
+        <!-- /header -->
+
+        <!-- row (needs to be inside a table or browser will remove tr and td elements -->
+        <table id="row_template" style="display: none;">
+            <tr class="row_template">
+                <th scope="row"><input type="checkbox" /></th>
+                <td><span class="main__article--id" style="display: none;"></span><input class="items__input" type="number" /></td>
+                <td>
+                    <div class="main__article--first--description">
+                        <h2 class="main__article--description--title"></h2>
+                        <h3 class="main__article--description--brand"></h3>
+                        <h4 class="main__article--description--weight"></h4>
+                    </div>
+                </td>
+                <td>
+                    <div class="main__articule--price--container">
+                        <div class="main__articule--description--price"></div>
+                        <span class="main__article--currency"></span>
+                    </div>
+                </td>
+            </tr>
+        </table>
+        <!-- /row -->
+
+        <!-- main -->
+        <main class="page__main">
+            <table class="table">
+                <tbody id="tableBody">
+                </tbody>
+            </table>
+        </main>
+        <!-- /main -->
+
+        <!-- footer -->
+        <footer class="page__footer">
+            <div class="footer__items">
+                <h3 class="footer__items--text">Items:</h3>
+                <p class="footer__items--number"></p>
+            </div>
+            <div class="footer__subtotal">
+                <h3 class="footer__subtotal--text">Subtotal</h3>
+                <div class="footer__subtotal--number--div">
+                    <p class="footer__subtotal--number"></p>
+                    <span class="footer__subtotal--number--span"></span>
+                </div>
+            </div>
+            <div class="footer__shippingcosts">
+                <h3 class="footer__shippingcosts--text">Gastos de envío</h3>
+                <div class="footer__shippingcosts--number--div">
+                    <p class="footer__shippingcosts--number"></p>
+                    <span class="footer__subtotal--shippingcosts--span"></span>
+                </div>
+            </div>
+            <div class="footer__total">
+                <h4 class="footer__total--text">Total</h4>
+                <div class="footer__total--number--div">
+                    <p class="footer__total--number"></p>
+                    <span class="footer__total--number--span"></span>
+                </div>
+            </div>
+            <button type="button" class="btn">Comprar ingredientes:<p class="footer__btn--span"></p>
+                <span class="footer__btn--number--span"></span>
+            </button>
+        </footer>
+        <!-- /footer -->
+    </div>
+    <script src="https://requirejs.org/docs/release/2.3.6/minified/require.js"></script>
+    <script src="./bundle.js"></script>
+    <script>
+        require(["main"], function(main){
+            
+        });
+    </script>
+
+</body>
+</html>

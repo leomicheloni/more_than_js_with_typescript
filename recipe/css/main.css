@@ -1,0 +1,229 @@
+body {
+  padding: 10px;
+}
+
+.page {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.header__subtitle {
+  font-family: "calibri Light", sans-serif;
+  font-weight: 400;
+  color: #969494;
+  margin-bottom: 0;
+  font-size: 14px;
+}
+
+.header__title {
+  font-family: "calibri Light", cursive;
+  font-size: 22px;
+  margin: 0px;
+  margin-top: -3px;
+}
+
+.header__selectors {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  font-family: "calibri Light", sans-serif;
+  font-size: 12px;
+  margin-top: 20px;
+}
+
+.header__select {
+  margin-right: 4px;
+  margin-bottom: 4px;
+  color: #6bb3e0;
+}
+
+.header__select--link {
+  text-decoration: none;
+}
+
+.header__deselect {
+  color: #6bb3e0;
+  margin-bottom: 4px;
+}
+
+.header__deselect--link {
+  text-decoration: none;
+}
+
+.table {
+  height: 200px;
+  width: 280px;
+  border-top: 0.2px solid #6bb3e0;
+}
+
+th,td {
+  border-bottom: 1px solid #ddd;
+}
+
+.items__input {
+  height: 40px;
+  width: 40px;
+  font-family: "calibri Light", cursive;
+  font-size: 18px;
+  padding: 5px;
+}
+
+h2 {
+  font-family: "calibri Light", cursive;
+  font-size: 12px;
+  margin: 0;
+}
+
+.footer__total--text {
+  font-family: "calibri Light", cursive;
+  font-size: 16px;
+  margin: 0;
+}
+
+h3 {
+  color: #969494;
+  font-family: "calibri Light", sans-serif;
+  font-size: 14px;
+  margin: 0;
+}
+
+h4 {
+  font-family: "calibri Light", sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  margin: 0;
+}
+
+.main__articule--description--price,.main__article--currency {
+  color: #4dd163;
+  font-family: "calibri Light", cursive;
+  font-size: 16px;
+}
+
+.main__articule--price--container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+}
+
+.page__main {
+  margin-bottom: 40px;
+}
+
+.page__footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.page__footer p,.page__footer span {
+  font-family: "calibri Light", cursive;
+}
+
+.page__footer {
+  width: 320px;
+  height: 150px;
+  margin-top: 0;
+}
+
+.footer__items {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  width: 250px;
+  height: 30px;
+  margin-bottom: 10px;
+}
+
+.footer__subtotal,.footer__shippingcosts,.footer__total {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  width: 250px;
+  height: 30px;
+  margin-bottom: 10px;
+}
+
+.footer__subtotal--text {
+  text-align: left;
+}
+
+.footer__items--number,.footer__subtotal--number,.footer__shippingcosts--number,.footer__total--number {
+  margin: 0;
+}
+
+.footer__items--number {
+  margin-left: 10px;
+}
+
+.btn {
+  background-color: #4dd163;
+  color: #ffffff;
+  font-family: "calibri Light", cursive;
+  font-size: 14px;
+  padding: 10px;
+  width: 250px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+}
+
+.btn p {
+  margin: 0;
+  margin-left: 10px;
+  font-size: 16px;
+}
+
+.footer__subtotal--number--div,.footer__shippingcosts--number--div,.footer__total--number--div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+}

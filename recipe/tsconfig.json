@@ -1,0 +1,18 @@
+{
+    "compilerOptions": {
+        "module": "amd",
+        "target": "es2016",
+        "noImplicitAny": true,
+        "outDir": "built",
+        "rootDir": "./src",
+        // "strict": true,
+        "outFile": "./bundle.js",
+        "watch": true,
+        "sourceMap": true
+    },
+    "exclude": [
+        "node_modules",
+        "spec"
+    ],
+    "include": ["**/*.ts"]    
+}

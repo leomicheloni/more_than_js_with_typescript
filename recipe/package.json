@@ -1,0 +1,25 @@
+{
+  "name": "solidcommit",
+  "version": "1.0.0",
+  "description": "",
+  "main": "output/index.js",
+  "dependencies": {
+    "@types/node": "^12.12.7",
+    "ts-node": "^8.5.0",
+    "typescript": "^3.7.2"
+  },
+  "devDependencies": {
+    "@types/jasmine": "^3.4.6",
+    "jasmine-console-reporter": "^3.1.0",
+    "jasmine": "^3.5.0",
+    "jasmine-core": "^3.5.0",
+    "jasmine-spec-reporter": "^4.2.1",
+    "jasmine-ts": "^0.3.0"
+  },
+  "scripts": {
+    "test": "jasmine-ts --project ./spec/tsconfig.json --config=./spec/jasmine.json",
+    "build": "tsc -p tsconfig.json"
+  },
+  "author": "",
+  "license": ""
+}

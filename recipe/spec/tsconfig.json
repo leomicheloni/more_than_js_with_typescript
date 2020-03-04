@@ -1,0 +1,13 @@
+{
+    "compilerOptions": {
+        "target": "es6",
+        "outDir": "output",
+        "removeComments": false,
+        "watch": true,
+        "module": "commonjs"
+    },
+    "exclude": [
+        "node_modules"
+    ],
+    "include": ["**/*.ts"]    
+}
